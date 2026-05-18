@@ -1051,6 +1051,18 @@ footer {
   margin-bottom: 16px;
 }
 
+.mjd {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.35);
+  text-decoration: none;
+  margin-bottom: 10px;
+  transition: color 0.2s;
+}
+
+.mjd:hover {
+  color: var(--white);
+}
+
 .footer-col a {
   display: block;
   font-size: 14px;
